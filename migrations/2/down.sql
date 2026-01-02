@@ -1,0 +1,5 @@
+
+DROP INDEX idx_external_blog_posts_link;
+DROP INDEX idx_external_blog_posts_category;
+DROP INDEX idx_external_blog_posts_published_date;
+DROP TABLE external_blog_posts;
