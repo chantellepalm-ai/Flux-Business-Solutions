@@ -1,16 +1,20 @@
-  {
+{
   "compilerOptions": {
-    "target": "ES2022",
-    "lib": ["ES2022"],
-   "types": ["@cloudflare/workers-types"],
-    "useUnknownInCatchVariables": false,
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
     "moduleResolution": "Node",
-    "lib": ["ES2022"],
-    "types": ["@cloudflare/workers-types"],
-    "useUnknownInCatchVariables": false,
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true
-  }
-
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
