@@ -1,8 +1,16 @@
-{
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" },
-    { "path": "./tsconfig.worker.json" }
-  ]
-}
+  {
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+   "types": ["@cloudflare/workers-types"],
+    "useUnknownInCatchVariables": false,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ES2022"],
+    "types": ["@cloudflare/workers-types"],
+    "useUnknownInCatchVariables": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+
